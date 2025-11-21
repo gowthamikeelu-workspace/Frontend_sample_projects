@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Profile Page</h1>
+
+    <h6>
+      Two ways to center an inline element (like an (img)) using a (div)
+      container: Wrap the image in a (div) and apply text-align: center to the
+      (div). This works because the image is inline by default.
+    </h6>
+    <a href="profile_page" target="_self">
+      <div style="text-align: center">
+        <img
+          src="https://media.licdn.com/dms/image/v2/D5603AQHzNlFVmjVCLQ/profile-displayphoto-scale_200_200/B56ZgRgerCG0Ac-/0/1752640384984?e=2147483647&v=beta&t=ccIsfoRXDbUivxvze4tQsYqPpat1t-grbDraGPRqmwk"
+          alt="clickable image"
+          height="100px"
+          width="100px"
+        />
+      </div> </a
+    ><br />
+
+    <h6>
+      - Setting display: block makes the image behave like a block element (like
+      a (div)), which allows it to be centered using margins. - margin: auto;
+      This tells the browser: “Give equal left and right margins so the image
+      sits in the center.”
+    </h6>
+    <a href="profile_page" target="_self">
+      <img
+        style="display: block; margin: auto"
+        src="https://media.licdn.com/dms/image/v2/D5603AQHzNlFVmjVCLQ/profile-displayphoto-scale_200_200/B56ZgRgerCG0Ac-/0/1752640384984?e=2147483647&v=beta&t=ccIsfoRXDbUivxvze4tQsYqPpat1t-grbDraGPRqmwk"
+        alt="clickable image"
+        height="100px"
+        width="100px"
+      /> </a
+    ><br />
+  </body>
+</html>

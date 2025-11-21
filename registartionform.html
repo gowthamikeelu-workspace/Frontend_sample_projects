@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      table {
+        margin: auto;
+        background-color: plum;
+        padding: 10px;
+        border: 1px;
+      }
+      td {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Registartion Form</h1>
+    <form action="submit.html" style="background-color: bisque">
+      <table>
+        <tr>
+          <td><label for="Roll">Roll no:</label></td>
+          <td><input class="box" type="text" id="Roll" /></td>
+        </tr>
+        <tr>
+          <td><label for="Names">Student Name:</label></td>
+          <td>
+            <input type="text" placeholder="first name" />-<input
+              type="text"
+              placeholder="last name"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="father">Father's name:</label></td>
+          <td><input class="box" type="text" id="father" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="DOB">Date of Birth:</label></td>
+          <td><input class="box" type="date" id="DOB" placeholder="day" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="mobile">Mobile no:</label></td>
+          <td>
+            <input class="small" type="text" id="mobile" value="+91" />-<input
+              style="width: 84%"
+              type="number"
+              id="mobile"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email Id:</label></td>
+          <td><input class="box" type="email" id="email" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input class="box" type="password" id="password" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <input type="radio" name="gender" /><label for="male">Male</label
+            ><input type="radio" name="gender" /><label for="female"
+              >Female</label
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="department">Department:</label></td>
+          <td>
+            <input type="checkbox" /><label for="department">CSE</label
+            ><input type="checkbox" /><label for="department">IT</label>
+            <input type="checkbox" /><label for="department">CVIL</label
+            ><input type="checkbox" /><label for="department">ECE</label>
+            <input type="checkbox" /><label for="department">MECH</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="course">Course:</label></td>
+          <td>
+            <select id="course" name="selectedOption">
+              <option disabled selected>
+                ------------Select current course's-----------
+              </option>
+              <option value="option1">B.TECH</option>
+              <option value="option2">M.TECH</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="pic">Students photo:</label></td>
+          <td><input class="box" type="file" id="pic" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="city">City:</label></td>
+          <td><input class="box" type="text" id="city" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td><textarea class="box" name="Address" id="address"></textarea></td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="Submit" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
